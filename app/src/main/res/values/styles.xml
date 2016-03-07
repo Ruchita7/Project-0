@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="myAppTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:text">@string/title</item>
+        <item name="android:textColor">@color/blue_gray_600</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonSpotifyStreamer">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/yellow_900</item>
+    </style>
+
+
+    <style name="customButton" parent="@style/buttonSpotifyStreamer">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+
+    <style name="customButtonCapstoneApp" parent="@style/customButton">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/red_a400</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

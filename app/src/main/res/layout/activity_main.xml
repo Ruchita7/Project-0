@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView style="@style/myAppTitle" />
+
+    <Button
+        style="@style/buttonSpotifyStreamer"
+        android:onClick="spotifyStreamer"
+        android:text="@string/spotify_streamer_text" />
+
+    <Button
+        style="@style/customButton"
+        android:onClick="scoresApp"
+        android:text="@string/scores_text" />
+
+    <Button
+        style="@style/customButton"
+        android:onClick="libraryApp"
+        android:text="@string/library_text" />
+
+    <Button
+        style="@style/customButton"
+        android:onClick="buildItBigger"
+        android:text="@string/build_it_bigger_text" />
+
+    <Button
+        style="@style/customButton"
+        android:onClick="xyzReader"
+
+        android:text="@string/xyz_reader_text" />
+
+    <Button
+        style="@style/customButtonCapstoneApp"
+        android:onClick="capstoneApp"
+        android:text="@string/capstone_text" />
+
+
+</LinearLayout>
