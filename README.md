@@ -5,7 +5,9 @@ This project was developed as P0(My App Portfolio) for Udacity Android Nanodegre
 The goals of this project are:
 
 1. For you to build an app layout that showcases the apps you will build across your Nanodegree journey.
+
 2. To introduce you to the process of submitting a project for review. You will be expected to submit projects for review throughout the program, so it's important that you go through the process early.
+
 3. To familiarize you with the experience of receiving feedback on your work from Udacity reviewers. Sharing and receiving feedback on your code is a key part of the Nanodegree program.
 
 ####**Required Tasks**
@@ -23,7 +25,7 @@ Note that if you start in the design view, it's often a best practice to return 
 
 Names of your Nanodegree apps
 
-1. Spotify Streamer
+1. Spotify Streamer/Popular Movies
 2. Super Duo (2 buttons: Football Scores App and Library App)
 3. Build It Bigger
 4. XYZ Reader
