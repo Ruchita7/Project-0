@@ -6,6 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * Main Activity for P0-My App Portfolio
+ * @author Ruchita_Maheshwary
+ *
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
