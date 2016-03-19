@@ -1,47 +1,73 @@
-This project was developed as P0(My App Portfolio) for Udacity Android Nanodegree.
+##Overview
+ 
+A simple app that that showcases the apps you built across Nanodegree journey.Added buttons for each project namely :
 
-####**Why this Project?**
+ *	Spotify Streamer/Popular Movies
 
-The goals of this project are:
+ *    Super Duo (2 buttons: Football Scores App and Library App)
 
-1. For you to build an app layout that showcases the apps you will build across your Nanodegree journey.
+ *    Build It Bigger
 
-2. To introduce you to the process of submitting a project for review. You will be expected to submit projects for review throughout the program, so it's important that you go through the process early.
+ *    XYZ Reader
 
-3. To familiarize you with the experience of receiving feedback on your work from Udacity reviewers. Sharing and receiving feedback on your code is a key part of the Nanodegree program.
+ *    Capstone
+ 
+ Clicking on the buttons will display a toast message like **"This button will launch my Capstone project"**
+ 
+##Prerequisites
 
-####**Required Tasks**
+ * The samples are building with compileSdkVersion 23 which requires [JDK 7](http://oracle.com/technetwork/java/javase/downloads/index.html) or higher
 
-1. Download Android Studio.
+ * Android Studio
+ 
+ 
+##Instructions
 
-2. Create a new project in Android Studio using the "Application with blank activity" template.
+###Get the source codes
 
-3. Create a layout for your main activity, adding a title, buttons for each app, and a style of your choosing.
+Get the source code of the library and example app, by cloning git repository or downloading archives.
 
-4. You can begin working in either the text view or design view (whichever you prefer) within Android Studio's Layout Editor.
+ * If you use **git**, execute the following command in your workspace directory.
 
+    `$ git clone https://github.com/Ruchita7/Project-0.git`
 
-Note that if you start in the design view, it's often a best practice to return to the text view to make final tweaks as this mode offers the most precision and control over your layout attributes.
+ * If you are using Windows, try it on GitBash or Cygwin or something that supports git.
+ 
+###Import the project to Android Studio
+ 
+Once the project is cloned to disk you can import into Android Studio:
 
-Names of your Nanodegree apps
+ * From the toolbar select **File > Import Project**, or Import Non-Android Studio project from the Welcome Quick Start.
 
-1. Spotify Streamer/Popular Movies
-2. Super Duo (2 buttons: Football Scores App and Library App)
-3. Build It Bigger
-4. XYZ Reader
-5. Capstone 
+ *	Select the directory that is cloned. If you can't see your cloned directory, click "Refresh" icon and find it.
 
-Colors and Styles
+ *	Android Studio will import the project and build it. This might take minutes to complete. Even when the project window is opened, wait until the Gradle tasks are finished and indexed.
 
-When designing your layout for the project portfolio, you may enjoy customizing the style and color of your buttons and changing the layout. If you are interested in learning about colors you can use, take a look at the material design color page, from Google.
+ *	Connect your devices to your machine and select app from the select Run/Debug Configuration drop down.Click the Run button
 
-If you'd like your app to look Udacious, feel free to use #F08C35 to match the orange buttons on our site.
+###Build and install using Gradle
 
-1. In the Java source for your main activity, enable your buttons to respond to click or touch events.
+If you just want to install the app to your device, you don't have to import project to Android Studio.
 
-2. Display a toast within the methods you created in the last step.
+ •	After cloning the project, make sure **ANDROID_HOME** environment variable is set to point to your Android SDK. See [Getting Started with Gradle](https://guides.codepath.com/android/Getting-Started-with-Gradle).
 
-3. You should see a message like this whenever a button is clicked!
+ •	Connect an Android device to your computer or start an Android emulator.
 
-           portfolio_toast
+ •	Compile the sample and install it. Run gradlew installDebug. Or if you on a Windows computer, use **gradlew.bat** instead.
+ 
+###Contributing
 
+Please follow the **"fork-and-pull"** Git workflow while contributing to this project
+
+ **Fork** the repo on GitHub
+
+ **Commit** changes to a branch in your fork
+
+ **Pull request "upstream"** with your changes
+
+ **Merge** changes in to "upstream" repo
+
+**NOTE:** Be sure to merge the latest from **"upstream"** before making a pull request!
+ 
+ 
+ 
